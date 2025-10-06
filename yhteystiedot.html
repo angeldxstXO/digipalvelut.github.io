@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+         <meta charset="UTF-8">
+        <title>ENERGIAJUOMATUKKU</title>
+        <link rel="stylesheet" href="tukkutyyli.css">
+    </head>
+    <body>
+        <main>
+        <img src="Logo.png" alt="Nettisivun logo" id="ETlogo">
+        <h1>Yhteystiedot</h1>
+        
+            <nav  class="navbar">
+                <ul>
+                    <li><a href="index.html">Etusivu</a></li>
+                    <li><a href="valikko.html">Tuotevalikoima</a></li>
+                    <li><a href="tilaus.html">Tee tilaus</a></li>
+                    <li><a class="active" href="yhteystiedot.html">Yhteystiedot</a></li>
+                </ul>
+            </nav>
+            <h3>Yhteystiedot</h3>
+            <div class ="pteksti">
+            <p>Sähköposti: asiakaspalvelu@energiajuomatukku.fi</p>
+            <p>Puhelin: 040 593 4482</p>
+            <p>Ma - Pe &nbsp; 9:00 - 18:00</p>
+            </div>
+
+            <h3>Anna palautetta</h3>
+
+    <div class="container">
+    <label for="fname">Nimi</label>
+    <input type="text" id="fname" name="firstname" placeholder="Etunimi Sukunimi">
+
+    <label for="lname">Sähköpostiosoite</label>
+    <input type="text" id="lname" name="lastname" placeholder="Sähköposti">
+
+    <label for="menu">Mitä asia koskee?</label>
+    <select id="menu" name="menu">
+      <option value="tilaus">Tilaus</option>
+      <option value="lasku">Lasku</option>
+      <option value="palaute">Palautetta verkkosivusta</option>
+      <option value="muu">Muu asia</option>
+    </select>
+
+    <label for="subject">Viestisi</label>
+    <textarea id="subject" name="subject" placeholder="Kirjoita tähän" style="height:200px"></textarea>
+
+    <input type="submit" value="Lähetä palaute">
+  </form>
+</div>
+
+            </main>
+    </body>
+    </html>
