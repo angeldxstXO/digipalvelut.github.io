@@ -175,7 +175,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #00d15e;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -184,7 +184,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #00d15e;
 }
 
 .container {
@@ -218,7 +218,7 @@ label {
 }
 
 .btn {
-  background-color: #04AA6D;
+  background-color: #00d15e;
   color: white;
   padding: 12px;
   margin: 10px 0;
@@ -231,7 +231,7 @@ label {
 }
 
 .btn:hover {
-  background-color: #45a049;
+  background-color: #00d15e;
 }
 
 .cbox {
